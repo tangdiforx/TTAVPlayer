@@ -1,0 +1,19 @@
+//
+//  TTAVPlayer-Prefix.pch
+//  TTAVPlayer
+//
+//  Created by 凡铁 on 17/3/15.
+//  Copyright © 2017年 fantie. All rights reserved.
+//
+
+#ifndef TTAVPlayer_Prefix_pch
+#define TTAVPlayer_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIView+Geometry.h"
+
+#define STRING_IS_BLANK(str) (str==nil ||![str isKindOfClass:[NSString class]]|| [str length]<1)
+
+#endif /* TTAVPlayer_Prefix_pch */
