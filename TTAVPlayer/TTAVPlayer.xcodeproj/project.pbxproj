@@ -24,8 +24,7 @@
 		FD7E94AA1EDD8BE700A8392A /* TTAVPlayerView+ViewMode.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7E94A21EDD8BE700A8392A /* TTAVPlayerView+ViewMode.h */; };
 		FD7E94AB1EDD8BE700A8392A /* TTAVPlayerView+ViewMode.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7E94A31EDD8BE700A8392A /* TTAVPlayerView+ViewMode.m */; };
 		FD7E94AC1EDD8BE700A8392A /* TTAVPlayerView_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7E94A41EDD8BE700A8392A /* TTAVPlayerView_Private.h */; };
-		FD7E94AD1EDD8BE700A8392A /* TTMultiMediaAVPlayer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7E94A51EDD8BE700A8392A /* TTMultiMediaAVPlayer_Private.h */; };
-		FD8FCC081ED9228100D572F7 /* TTMultiMediaAVPlayer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBD81ED9228100D572F7 /* TTMultiMediaAVPlayer_Private.h */; };
+		FD7E94AF1EDD8CC000A8392A /* TTMultiMediaAVPlayer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7E94AE1EDD8CC000A8392A /* TTMultiMediaAVPlayer_Private.h */; };
 		FD8FCC091ED9228100D572F7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD8FCBD91ED9228100D572F7 /* Info.plist */; };
 		FD8FCC0A1ED9228100D572F7 /* TTAVPlayerVideoInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBDB1ED9228100D572F7 /* TTAVPlayerVideoInfo.h */; };
 		FD8FCC0B1ED9228100D572F7 /* TTAVPlayerVideoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8FCBDC1ED9228100D572F7 /* TTAVPlayerVideoInfo.m */; };
@@ -105,8 +104,7 @@
 		FD7E94A21EDD8BE700A8392A /* TTAVPlayerView+ViewMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TTAVPlayerView+ViewMode.h"; sourceTree = "<group>"; };
 		FD7E94A31EDD8BE700A8392A /* TTAVPlayerView+ViewMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TTAVPlayerView+ViewMode.m"; sourceTree = "<group>"; };
 		FD7E94A41EDD8BE700A8392A /* TTAVPlayerView_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAVPlayerView_Private.h; sourceTree = "<group>"; };
-		FD7E94A51EDD8BE700A8392A /* TTMultiMediaAVPlayer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMultiMediaAVPlayer_Private.h; sourceTree = "<group>"; };
-		FD8FCBD81ED9228100D572F7 /* TTMultiMediaAVPlayer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTMultiMediaAVPlayer_Private.h; path = ../Category/TTMultiMediaAVPlayer_Private.h; sourceTree = "<group>"; };
+		FD7E94AE1EDD8CC000A8392A /* TTMultiMediaAVPlayer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMultiMediaAVPlayer_Private.h; sourceTree = "<group>"; };
 		FD8FCBD91ED9228100D572F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD8FCBDB1ED9228100D572F7 /* TTAVPlayerVideoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAVPlayerVideoInfo.h; sourceTree = "<group>"; };
 		FD8FCBDC1ED9228100D572F7 /* TTAVPlayerVideoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAVPlayerVideoInfo.m; sourceTree = "<group>"; };
@@ -222,7 +220,6 @@
 				FD7E94A21EDD8BE700A8392A /* TTAVPlayerView+ViewMode.h */,
 				FD7E94A31EDD8BE700A8392A /* TTAVPlayerView+ViewMode.m */,
 				FD7E94A41EDD8BE700A8392A /* TTAVPlayerView_Private.h */,
-				FD7E94A51EDD8BE700A8392A /* TTMultiMediaAVPlayer_Private.h */,
 			);
 			path = PlayerView;
 			sourceTree = "<group>";
@@ -257,11 +254,11 @@
 		FD8FCBDD1ED9228100D572F7 /* Player */ = {
 			isa = PBXGroup;
 			children = (
+				FD7E94AE1EDD8CC000A8392A /* TTMultiMediaAVPlayer_Private.h */,
 				FD8FCBDE1ED9228100D572F7 /* TTMultiMediaAVPlayer+Observer.h */,
 				FD8FCBDF1ED9228100D572F7 /* TTMultiMediaAVPlayer+Observer.m */,
 				FD8FCBE01ED9228100D572F7 /* TTMultiMediaAVPlayer.h */,
 				FD8FCBE11ED9228100D572F7 /* TTMultiMediaAVPlayer.m */,
-				FD8FCBD81ED9228100D572F7 /* TTMultiMediaAVPlayer_Private.h */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -316,11 +313,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD8FCC151ED9228100D572F7 /* TTAVPlayerView.h in Headers */,
-				FD8FCC081ED9228100D572F7 /* TTMultiMediaAVPlayer_Private.h in Headers */,
 				FD8FCC0A1ED9228100D572F7 /* TTAVPlayerVideoInfo.h in Headers */,
 				FD8FCC211ED9228100D572F7 /* TTAVPlayerLoadingView.h in Headers */,
 				FD8FCC171ED9228100D572F7 /* UIView+Geometry.h in Headers */,
-				FD7E94AD1EDD8BE700A8392A /* TTMultiMediaAVPlayer_Private.h in Headers */,
 				FD8FCC191ED9228100D572F7 /* TTAVPlayerAdjustPlayProgressView.h in Headers */,
 				FD8FCC0E1ED9228100D572F7 /* TTMultiMediaAVPlayer.h in Headers */,
 				FD8FCC101ED9228100D572F7 /* TTReachability.h in Headers */,
@@ -337,6 +332,7 @@
 				FD7E94AC1EDD8BE700A8392A /* TTAVPlayerView_Private.h in Headers */,
 				FD8FCC0C1ED9228100D572F7 /* TTMultiMediaAVPlayer+Observer.h in Headers */,
 				FD8FCC121ED9228100D572F7 /* TTAVPlayer-Prefix.pch in Headers */,
+				FD7E94AF1EDD8CC000A8392A /* TTMultiMediaAVPlayer_Private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
