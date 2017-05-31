@@ -2,8 +2,8 @@
 //  TTMultiMediaAVPlayer_Private.h
 //  Multimedia
 //
-//  Created by 张祖权 on 2017/2/12.
-//  Copyright © 2017年 Alipay. All rights reserved.
+//  Created by zuquan.zhang on 2017/2/12.
+//  Copyright © 2017年 dylan.tang. All rights reserved.
 //
 
 #ifndef TTMultiMediaAVPlayer_Private_h

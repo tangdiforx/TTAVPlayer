@@ -2,8 +2,8 @@
 //  TTAVPlayerErrorView.m
 //  Multimedia
 //
-//  Created by 凡铁 on 17/2/2.
-//  Copyright © 2017年 Alipay. All rights reserved.
+//  Created by dylan.tang on 17/2/2.
+//  Copyright © 2017年 dylan.tang. All rights reserved.
 //
 
 #import "TTAVPlayerErrorView.h"

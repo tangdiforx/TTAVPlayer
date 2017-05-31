@@ -2,8 +2,8 @@
 //  TTAVPlayerView.h
 //  Multimedia
 //
-//  Created by 凡铁 on 17/1/30.
-//  Copyright © 2017年 Alipay. All rights reserved.
+//  Created by dylan.tang on 17/1/30.
+//  Copyright © 2017年 dylan.tang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

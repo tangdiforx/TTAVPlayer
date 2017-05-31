@@ -2,8 +2,8 @@
 //  TTMultiMediaAVPlayer+Observer.h
 //  Multimedia
 //
-//  Created by 张祖权 on 2017/2/10.
-//  Copyright © 2017年 Alipay. All rights reserved.
+//  Created by zuquan.zhang on 2017/2/10.
+//  Copyright © 2017年 dylan.tang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

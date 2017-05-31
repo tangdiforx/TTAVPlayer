@@ -2,8 +2,8 @@
 //  ViewController.m
 //  TTavplayer
 //
-//  Created by 凡铁 on 17/3/23.
-//  Copyright © 2017年 fantie. All rights reserved.
+//  Created by dylan.tang on 17/3/23.
+//  Copyright © 2017年 dylan.tang. All rights reserved.
 //
 
 #import "ViewController.h"

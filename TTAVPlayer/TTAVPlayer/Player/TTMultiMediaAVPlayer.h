@@ -2,8 +2,8 @@
 //  TTMultiMediaAVPlayer.h
 //  Multimedia
 //
-//  Created by 凡铁 on 17/2/6.
-//  Copyright © 2017年 Alipay. All rights reserved.
+//  Created by dylan.tang on 17/2/6.
+//  Copyright © 2017年 dylan.tang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -23,6 +23,7 @@ typedef NS_ENUM (NSInteger, TTMultiMediaAVPlayerStatus) {
     TTMultiMediaAVPlayerStatusPlaying,
     TTMultiMediaAVPlayerStatusError
 };
+
 typedef NS_ENUM(NSInteger,TTMultiMediaAVPlayerError) {
     TTMultiMediaAVPlayerErrorNoNetwork = 0,//无网络
     TTMultiMediaAVPlayerErrorStalled,//异常中断
