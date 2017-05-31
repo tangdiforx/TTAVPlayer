@@ -13,11 +13,12 @@
 	横屏模式:最佳播放体验，具有最丰富的交互操作，如快捷调节音量，播放进度，屏幕亮度。
 
 最终实现效果部分如下:
-######普通模式-全屏模式
+
+###### 普通模式-全屏模式
 
 <img src="https://img.alicdn.com/tfs/TB1s3StQpXXXXcAXXXXXXXXXXXX-304-569.gif">
 
-#####竖屏模式-全屏模式
+##### 竖屏模式-全屏模式
 
 <img src="https://gw.alicdn.com/tfs/TB12RKpQpXXXXbkXpXXXXXXXXXX-304-569.gif">
 
