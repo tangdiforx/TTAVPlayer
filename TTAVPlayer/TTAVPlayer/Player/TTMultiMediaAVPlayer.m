@@ -2,7 +2,7 @@
 //  TTMultiMediaAVPlayer.m
 //  Multimedia
 //
-//  Created by dylan.tang on 17/2/6.
+//  Created by zuquan.zhang on 17/2/6.
 //  Copyright © 2017年 dylan.tang. All rights reserved.
 //
 
