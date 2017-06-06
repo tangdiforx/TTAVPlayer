@@ -235,6 +235,7 @@
     if (self.player || !self.videoUrl){
         return;
     }
+    [self beforePlayerLoadPretreatment];
     __weak typeof(self) weakSelf = self;
     [TTMultiMediaAVPlayer playerWithURL:[NSURL URLWithString:self.videoUrl] completionHandler:^(TTMultiMediaAVPlayer *player, NSError *error) {
         if (error){
@@ -297,6 +298,16 @@
 
 - (void)hideLoadingIndicator{
     self.loadingView.hidden = YES;
+}
+
+//播放器加载完毕前的预处理
+- (void)beforePlayerLoadPretreatment{
+    self.slider.userInteractionEnabled = NO;
+}
+
+//播放器加载完毕之后的处理,这部分逻辑不与播放方法耦合
+- (void)afterPlayerLoadTreatment{
+    self.slider.userInteractionEnabled = YES;
 }
 
 #pragma mark - player delegate
@@ -399,6 +410,7 @@
 //item初始化成功，可以播放
 - (void)playerCanPlay{
     [self playViewDidPlayWithPreload:YES];
+    [self afterPlayerLoadTreatment];
 }
 
 @end
