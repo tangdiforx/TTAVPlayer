@@ -13,6 +13,13 @@
 #import "TTAVPlayerSwipeHandlerView.h"
 #import <CoreTelephony/CTCallCenter.h>
 #import <CoreTelephony/CTCall.h>
+#import "TTAVPlayerSlider.h"
+#import "TTAVPlayerTimeLabel.h"
+#import "TTAVPlayerInternalView.h"
+#import "TTAVPlayerErrorView.h"
+#import "TTAVPlayerSwipeHandlerView.h"
+#import "TTAVPlayerInfoChangeView.h"
+#import "TTAVPlayerLoadingView.h"
 
 @interface TTAVPlayerView ()
 

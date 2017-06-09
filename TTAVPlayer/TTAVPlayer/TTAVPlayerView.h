@@ -8,14 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
-#import "TTAVPlayerSlider.h"
-#import "TTAVPlayerTimeLabel.h"
-#import "TTAVPlayerInternalView.h"
-#import "TTAVPlayerErrorView.h"
 #import "TTAVPlayerVideoInfo.h"
-#import "TTAVPlayerSwipeHandlerView.h"
-#import "TTAVPlayerInfoChangeView.h"
-#import "TTAVPlayerLoadingView.h"
+
 
 @class TTAVPlayerView;
 
