@@ -14,7 +14,6 @@
 
 @end
 
-
 @implementation TTAVPlayerSlider
 
 - (instancetype)init{
