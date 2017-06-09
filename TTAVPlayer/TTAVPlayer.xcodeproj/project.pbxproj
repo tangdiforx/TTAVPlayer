@@ -26,7 +26,7 @@
 		FD7E94AC1EDD8BE700A8392A /* TTAVPlayerView_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7E94A41EDD8BE700A8392A /* TTAVPlayerView_Private.h */; };
 		FD7E94AF1EDD8CC000A8392A /* TTMultiMediaAVPlayer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7E94AE1EDD8CC000A8392A /* TTMultiMediaAVPlayer_Private.h */; };
 		FD8FCC091ED9228100D572F7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD8FCBD91ED9228100D572F7 /* Info.plist */; };
-		FD8FCC0A1ED9228100D572F7 /* TTAVPlayerVideoInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBDB1ED9228100D572F7 /* TTAVPlayerVideoInfo.h */; };
+		FD8FCC0A1ED9228100D572F7 /* TTAVPlayerVideoInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBDB1ED9228100D572F7 /* TTAVPlayerVideoInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD8FCC0B1ED9228100D572F7 /* TTAVPlayerVideoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8FCBDC1ED9228100D572F7 /* TTAVPlayerVideoInfo.m */; };
 		FD8FCC0C1ED9228100D572F7 /* TTMultiMediaAVPlayer+Observer.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBDE1ED9228100D572F7 /* TTMultiMediaAVPlayer+Observer.h */; };
 		FD8FCC0D1ED9228100D572F7 /* TTMultiMediaAVPlayer+Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8FCBDF1ED9228100D572F7 /* TTMultiMediaAVPlayer+Observer.m */; };
@@ -37,7 +37,7 @@
 		FD8FCC121ED9228100D572F7 /* TTAVPlayer-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBE51ED9228100D572F7 /* TTAVPlayer-Prefix.pch */; };
 		FD8FCC131ED9228100D572F7 /* TTAVPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD8FCBE61ED9228100D572F7 /* TTAVPlayer.bundle */; };
 		FD8FCC141ED9228100D572F7 /* TTAVPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBE71ED9228100D572F7 /* TTAVPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD8FCC151ED9228100D572F7 /* TTAVPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBE81ED9228100D572F7 /* TTAVPlayerView.h */; };
+		FD8FCC151ED9228100D572F7 /* TTAVPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBE81ED9228100D572F7 /* TTAVPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD8FCC161ED9228100D572F7 /* TTAVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8FCBE91ED9228100D572F7 /* TTAVPlayerView.m */; };
 		FD8FCC171ED9228100D572F7 /* UIView+Geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBEC1ED9228100D572F7 /* UIView+Geometry.h */; };
 		FD8FCC181ED9228100D572F7 /* UIView+Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8FCBED1ED9228100D572F7 /* UIView+Geometry.m */; };
