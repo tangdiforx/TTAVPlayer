@@ -36,7 +36,7 @@
 		FD8FCC111ED9228100D572F7 /* TTReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8FCBE41ED9228100D572F7 /* TTReachability.m */; };
 		FD8FCC121ED9228100D572F7 /* TTAVPlayer-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBE51ED9228100D572F7 /* TTAVPlayer-Prefix.pch */; };
 		FD8FCC131ED9228100D572F7 /* TTAVPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD8FCBE61ED9228100D572F7 /* TTAVPlayer.bundle */; };
-		FD8FCC141ED9228100D572F7 /* TTAVPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBE71ED9228100D572F7 /* TTAVPlayer.h */; };
+		FD8FCC141ED9228100D572F7 /* TTAVPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBE71ED9228100D572F7 /* TTAVPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD8FCC151ED9228100D572F7 /* TTAVPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBE81ED9228100D572F7 /* TTAVPlayerView.h */; };
 		FD8FCC161ED9228100D572F7 /* TTAVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8FCBE91ED9228100D572F7 /* TTAVPlayerView.m */; };
 		FD8FCC171ED9228100D572F7 /* UIView+Geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8FCBEC1ED9228100D572F7 /* UIView+Geometry.h */; };
@@ -312,6 +312,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8FCC141ED9228100D572F7 /* TTAVPlayer.h in Headers */,
 				FD8FCC151ED9228100D572F7 /* TTAVPlayerView.h in Headers */,
 				FD8FCC0A1ED9228100D572F7 /* TTAVPlayerVideoInfo.h in Headers */,
 				FD8FCC211ED9228100D572F7 /* TTAVPlayerLoadingView.h in Headers */,
@@ -326,7 +327,6 @@
 				FD8FCC231ED9228100D572F7 /* TTAVPlayerSlider.h in Headers */,
 				FD8FCC1D1ED9228100D572F7 /* TTAVPlayerInfoChangeView.h in Headers */,
 				FD8FCC271ED9228100D572F7 /* TTAVPlayerTimeLabel.h in Headers */,
-				FD8FCC141ED9228100D572F7 /* TTAVPlayer.h in Headers */,
 				FD8FCC1B1ED9228100D572F7 /* TTAVPlayerErrorView.h in Headers */,
 				FD7E94AA1EDD8BE700A8392A /* TTAVPlayerView+ViewMode.h in Headers */,
 				FD7E94AC1EDD8BE700A8392A /* TTAVPlayerView_Private.h in Headers */,
