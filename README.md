@@ -107,7 +107,7 @@ TTAVPlayer持有一个AVPlayerItem的实例，它提供了我们访问一个视�
 对于使用Cocoapods的用户，我会尽快添加对pods的支持。已添加到TODO。
 ```
 
-### 5.Tips
+### 6.Tips
 
 
 1. 如对代码有不解或者发现Bug，可直接github提issue，我会尽量解掉。
