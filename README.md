@@ -12,6 +12,8 @@
 ```
 这里用来记录项目更新情况 当前版本号v1.1
 ```
+1. README新增集成方式的介绍。
+
 1. 修复播放器尚未加载完成前拖动Slider会出现的崩溃风险。
 
 2. 新增两个API:
@@ -89,6 +91,21 @@ TTAVPlayer持有一个AVPlayerItem的实例，它提供了我们访问一个视�
 1. 容错提示页面，温馨提示，让用户不再尴尬；
 1. 检测网络切换功能，当网络从WIFI切到数据流量时，自动暂停视频；
 1. 静音播放模式，让用户在公共场所看视频不尴尬；
+
+### 5.怎样在项目中使用TTAVPlayer
+
+```
+对于不使用Cocoapods的用户:首先你需要了解目前iOS SDK需要支持的四种指令集:X86_84,i386(针对模拟器)，ARMv7,ARM64(针对真机，32位和64位CPU之分)。一个完整的SDK需要支持这四种指令集。
+```
+1. 首先使用TTAVPlayer Framework的源码，在Xcode的Target处选取两种target:Xcode支持的最新模拟器 && Generic iOS Device。分别进行编译，最后在Product目录里，拿到相应的Framework保存下来。
+2. 打开这两个Framework，取出Framework中的静态库文件TTAVPlayer(不带任何后缀名)，然后将这两个静态库文件，使用lipo -create命令合并成一个。
+3. 打开任意一个Framework文件，将原本的静态库文件替换成合并后的静态文件。
+4. 在编译的主工程的copy resource bundle里，添加对Framework中Resource.bundle的引用。
+5. 集成完毕。请注意，TTAVPlayer的最低系统支持版本为iOS 7.0。
+
+```
+对于使用Cocoapods的用户，我会尽快添加对pods的支持。已添加到TODO。
+```
 
 ### 5.Tips
 
