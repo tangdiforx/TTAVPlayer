@@ -1,4 +1,4 @@
-## TTAVPlayer-iOS多模式&富交互视频播放器实现(附源码)
+## TTAVPlayer-iOS多模式&富交互视频播放器实现
 
 
 ### 0.1 TODO
