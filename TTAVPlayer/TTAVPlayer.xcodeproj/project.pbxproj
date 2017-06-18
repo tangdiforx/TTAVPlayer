@@ -647,6 +647,7 @@
 				DEVELOPMENT_TEAM = NVDY5XJZGD;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fantie.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -659,6 +660,7 @@
 				DEVELOPMENT_TEAM = NVDY5XJZGD;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fantie.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
