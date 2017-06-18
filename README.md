@@ -102,6 +102,7 @@ TTAVPlayer持有一个AVPlayerItem的实例，它提供了我们访问一个视�
 3. 打开任意一个Framework文件，将原本的静态库文件替换成合并后的静态文件。
 4. 在编译的主工程的copy resource bundle里，添加对Framework中Resource.bundle的引用。
 5. 集成完毕。请注意，TTAVPlayer的最低系统支持版本为iOS 7.0。
+6. 最终要注意，在最终集成的target的工程设置里需要在other linker flag中加上-all_load编译标志。（需要加载framework中的category）
 
 ```
 对于使用Cocoapods的用户，我会尽快添加对pods的支持。已添加到TODO。
